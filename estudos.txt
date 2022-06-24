@@ -1,0 +1,57 @@
+// Esse é o meu primeiro comentário 
+
+// Dando uma mensagem de bom dia
+//show_message("Bom dia");
+// Agora eu vou falar que hora são
+//show_message("São 14:33");
+
+//Tipos de dados (GML; Game Maker Language)
+//Texto - String - Entre aspas
+//Numeros - numeros de forma geral - Não tem aspas
+//Booleano - retorna verdadeiro ou falso, true or false, 1 ou 0,sim ou nao - Binarios
+//True = 1 False = 0 
+//Variaveis - Palavras que guardam informações 
+
+//Criando variavel nome e atribuindo a ela o valor "jose" que é uma String
+//nome = "Jose Victor ";
+//sobrenome = "Araujo Rojas";
+//idade = 72;
+
+//vou dar uma mensagem falando o meu nome
+//show_message(nome);
+//show_message(sobrenome);
+//show_message(idade);
+//show_message(true);
+//show_message(false);
+
+//Snake case - Ele_usa_anderlaine_para_separar_nomes_tipo_uma_cobrinha
+//O gml é case sensitive - ou seja, ele diferencia maiuscula de minuscula
+
+//pegando dados do usuario
+
+//pegando o nome do usuario e passando ele pra variavel nome
+//nome = get_string("Digite seu nome","Carlos");
+//pegando idade
+//idade = get_integer("Digite sua idade",0);
+
+//pegue a altura da pessoa, seu peso e mostre para ela
+//pegando peso
+//peso = get_integer("Digite seu peso",0)
+//pegando altura
+//altura = get_integer("Digite sua altura",0) 
+
+//show_message("Seu nome é");
+//show_message(nome);
+//show_message("Você tem");
+//show_message(idade);
+//falando peso
+//show_message("Você pesa");
+//show_message(peso);
+//falando altura
+//show_message("Você mede");
+//show_message(altura);
+
+//perguntando se a pessoa gosta de pizza
+//gosta_de_pizza = show_question("Você gosta de pizza?");
+//ira retoranar 0 e 1 pois show_question retorna boolean
+//show_message(gosta_de_pizza)
